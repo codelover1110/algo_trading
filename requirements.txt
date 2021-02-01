@@ -1,0 +1,6 @@
+matplotlib
+psutil
+Flask
+alpaca-trade-api
+ibapi
+pypyodbc

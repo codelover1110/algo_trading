@@ -1,0 +1,16 @@
+{% extends "layouts/base.html" %}
+{% block title %}{{title}}{% endblock %}
+{% block head %}
+  {{ super() }}
+{% endblock %}
+{% block content %}
+<div class="row text-center">
+  <h1>{{ title}}</h1>
+  <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL5suwoLCYZJjULV6KNrt5edPBxWk2Beni_Q&usqp=CAU" alt="Submit" width="200" height="200">
+</div>
+<br/><br/>
+<div class="row text-center">
+  <button class="btn btn-primary" id="startButton">Trade Start</button>
+  <button class="btn btn-primary" id="stopButton">Trade Stop</button>
+</div>
+{% endblock %}
